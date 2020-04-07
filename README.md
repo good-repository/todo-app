@@ -1,5 +1,5 @@
 <h1 align="center">
-	ToDo App (Code Demonstration)
+	ToDo App
 </h1>
 
 <br>
