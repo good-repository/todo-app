@@ -2,6 +2,12 @@
 	ToDo App (Code Demonstration)
 </h1>
 
+<br>
+
+<p align="center">
+  <img alt="Frontend" src="todoApp.png" width="100%">
+</p>
+
 <h4 align="center">
   Guilherme Fünkler Borelli
 </h4>
@@ -12,11 +18,6 @@
   <a href="#memo-observações">Observações</a>
 </p>
 
-<br>
-
-<p align="center">
-  <img alt="Frontend" src="todoApp.png" width="100%">
-</p>
 
 ## :wrench: Tecnologias
 
@@ -33,6 +34,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O Todo App é um projeto que visa facilitar o controle de tarefas e a gestão de tempo.
 
 ## :memo: Observações
+
+É necessário ter o mongo instalado e configurado para o backend funcionar corretamente.
 
 Aplicação desenvolvida com 2 frontends, um com redux (diretório frontend) e outro sem redux (diretório frontend-without-redux), após escolher o tipo de frontend desejado seguir os passos abaixo:
 
