@@ -1,0 +1,16 @@
+.pageHeader > h2 > small{
+ color: gray;
+}
+
+.markedAsDone{
+  text-decoration: line-through;
+  color: gray;
+}
+
+.tableActions{
+  width: 140px;
+}
+
+.tableTime{
+  width: 160px;
+}
