@@ -8,7 +8,7 @@ class toDo {
   }
 
   addTodo(description, createdAt, finishedAt) {
-    this.list = [[description, createdAt, finishedAt], ...this.list];
+    this.list.unshift([description, createdAt, finishedAt]);
   }
 
   reset() {
