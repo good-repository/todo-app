@@ -1,23 +1,19 @@
 import { makeAutoObservable } from "mobx";
 
-// Model the application state.
-class Timer {
-  description = "";
+class toDo {
   list = [];
-  createdAt = "";
-  finishedAt = "";
 
   constructor() {
     makeAutoObservable(this);
   }
 
-  increase() {
-    this.secondsPassed += 1;
+  addTodo(description, createdAt, finishedAt) {
+    this.list = [[description, createdAt, finishedAt], ...this.list];
   }
 
   reset() {
-    this.secondsPassed = 0;
+    this.list = [];
   }
 }
 
-const myTimer = new Timer();
+export default toDo;
