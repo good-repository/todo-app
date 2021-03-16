@@ -1,5 +1,7 @@
+import ToDo from "./pages/ToDo";
+
 function App() {
-  return <div>oi</div>;
+  return <ToDo />;
 }
 
 export default App;
