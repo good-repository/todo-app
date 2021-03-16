@@ -4,10 +4,8 @@ import { observer } from "mobx-react";
 import toDo from "../../store/models/toDo";
 
 const toDoList = new toDo();
-// observer(toDoList);
-//erro
 
-export default function ToDo() {
+function ToDo() {
   const [number, setNumber] = useState(1);
 
   const { list } = toDoList;
@@ -28,3 +26,5 @@ export default function ToDo() {
     </div>
   );
 }
+
+export default observer(ToDo);
