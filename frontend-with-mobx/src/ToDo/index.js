@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { observer } from "mobx-react";
 
-import toDo from "../../store/models/toDo";
+import toDo from "../models/toDo";
 
 const toDoList = new toDo();
 
